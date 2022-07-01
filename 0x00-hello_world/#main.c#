@@ -1,0 +1,10 @@
+#include <stdio.h>
+/**
+ * main - Main Point
+ *
+ *Return: Always zero (success)
+ */
+int main(void)
+{
+  return (0);
+}
