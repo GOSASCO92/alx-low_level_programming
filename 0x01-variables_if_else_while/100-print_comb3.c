@@ -12,23 +12,27 @@ int main(void)
 	int a = '0';
 	int b = '0';
 
-	while (a <= '9')
+	while (b <= '9')
 	{
-		if (!(a < b || a == b))
+		while (b <= '9')
 		{
-			putchar(a);
-			putchar(b);
-			if (a == '8' && b == '9')
-				putchar('\n');
-			else
+			if (!(a < b || a == b))
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(a);
+				putchar(b);
+
+				if (a == '8' && b == '9')
+					putchar('\n');
+				else
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				b++;
 			}
-			b++;
+			b = '0';
+			a++;
 		}
-		b = '0';
-		a++;
 	}
 	return (0);
 }
