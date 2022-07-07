@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * main - prtins _putchar
@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	char c[] = "_putchar";
+	char c[8] = "_putchar";
 	int i;
 
-	for (i = 0; i <= 8; i++)
+i	for (i = 0; i <= 8; i++)
 	{
 		putchar(c[i]);
 	}
