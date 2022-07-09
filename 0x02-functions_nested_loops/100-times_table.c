@@ -21,13 +21,13 @@ void print_times_table(int n)
 					_putchar(',');
 					_putchar(' ');
 				}
-				if (n < 10 && x !=)
+				if (n < 10 && x != 0)
 				{
 					_putchar(' ');
 					_putchar(' ');
-					_putchar(n % 10 + '0');
+					_putchar((n % 10) + '0');
 				}
-				else if (n >= 10 $ n < 100)
+				else if (n >= 10 && n < 100)
 				{
 					_putchar(' ');
 					_putchar((n / 10) + '0');
