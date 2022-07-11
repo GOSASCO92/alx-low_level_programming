@@ -10,11 +10,11 @@ int _isdigit(int c)
 {
 	char a = '0';
 
-	for (; a <= 9; a++)
+	for (; a <= '9'; a++)
 	{
 		if (a == c)
 		{
-			return (1)
+			return (1);
 		}
 
 	}
