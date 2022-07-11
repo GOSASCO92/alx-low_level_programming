@@ -3,6 +3,7 @@
 /**
  * _isupper - checks the case of a character
  * @c: character to be checked
+ * Return: 0
  */
 
 int _isupper(int c)
