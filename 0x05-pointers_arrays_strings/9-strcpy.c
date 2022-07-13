@@ -5,11 +5,15 @@
  * @src: source
  * Return: result
  */
-char *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src, int n)
 {
-	char *d = dest;
+	int i = 0;
 
-	while (*src)
-		*dest++ = *src++;
-	return (d);
+	for (; src[i] != '\0'; && i < n; i++)
+	{
+		dest[i] = src[i];
+	}
+	while (i < n)
+		dest[i++] = '\0';
+	return (dest);
 }
