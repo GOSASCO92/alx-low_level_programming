@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * rev_array - reverses and array
+ * reverse_array - reverses and array
  * @a: array
  * @n: size of the arry
  */
@@ -13,7 +13,7 @@ void reverse_array(int *a, int n)
 	while (i <= n)
 	{
 		r = a[n];
-		a = a[i];
+		a[n--] = a[i];
 		a[i++] = r;
 	}
 }
