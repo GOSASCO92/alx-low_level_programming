@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <unistd.h>
 
 /**
  *main - entry point
@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-ltrace("and that piece art is useful\" - Dora Karpar, 2015-10-19 \n");
+write(2, "and that piece art is useful\" - Dora Karpar, 2015-10-19\n", 58);
 return (1);
 }
