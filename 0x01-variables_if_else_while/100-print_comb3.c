@@ -5,16 +5,21 @@
  */
 int main(void)
 {
-int i;
+int i, j;
 
-for (i = 0; i < 100; i++)
+for (i = '0'; i < '9'; i++)
 {
-putchar((i / 10) + 0);
-putchar((i % 10) + 0);
-if (i != 99)
+for (j = i + 1; j <= 9; j++)
 {
+if (j != i)
+{
+putchar(i);
+putchar(j);
+if (i == '8' && j == '9')
+continue;
 putchar(',');
-putchar(' ');
+putcahr(' ');
+}
 }
 }
 putchar('\n');
