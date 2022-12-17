@@ -7,12 +7,11 @@
 int _islower(int c)
 {
 char a;
-int i;
 
 for (a = 'a'; a <= 'z'; a++)
 {
 if (a == c)
-i = 1;
+return (1);
 }
-return (i);
+return (0);
 }
