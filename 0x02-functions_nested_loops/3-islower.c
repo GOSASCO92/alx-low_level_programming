@@ -11,7 +11,7 @@ int i;
 
 for (a = 'a'; a <= 'z'; a++)
 {
-if (a == i)
+if (a == c)
 i = 1;
 }
 return (i);
