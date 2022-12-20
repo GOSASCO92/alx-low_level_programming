@@ -14,17 +14,17 @@ for (x = 0; x <= n; x++)
 {
 _putchar('0');
 for (y = 1; y <= 15; y++)
-getformat(x * y);
+prepout(x * y);
 _putchar('\n');
 }
 }
 }
 
 /**
- *getformat - formats the output
+ *prepout - formats the output
  *@n: integer
  */
-void getformat(int n)
+void prepout(int n)
 {
 if (n <= 9)
 {
