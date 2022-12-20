@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  *print_to_98 - prints natural numbers
@@ -12,9 +13,7 @@ for (i = n; i <= 98; i++)
 {
 if (n >= 0 && n < 98)
 {
-_putchar(i);
-_putchar(',');
-_putchar(' ');
+printf("%d", ",", " ", "\n", i);
 }
-}
+return (0);
 }
