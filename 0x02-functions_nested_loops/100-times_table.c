@@ -14,17 +14,17 @@ for (x = 0; x <= n; x++)
 {
 _putchar('0');
 for (y = 1; y <= 15; y++)
-formatter(x * y);
+getformat(x * y);
 _putchar('\n');
 }
 }
 }
 
 /**
- *formatter - formats the output
+ *getformat - formats the output
  *@n: integer
  */
-void formatter(int n)
+void getformat(int n)
 {
 if (n <= 9)
 {
@@ -47,7 +47,7 @@ else
 _putchar(',');
 _putchar(' ');
 _putchar((n / 100) + '0');
-_putchar(n / 10 % 10) + '0');
+_putchar((n / 10 % 10) + '0');
 _putchar(n % 10 + '0');
 }
 }
