@@ -12,7 +12,7 @@ for (u = 'A'; u <= 'Z'; u++)
 {
 for (l = 'a'; l <= 'z'; l++)
 {
-if (u != c || l != c)
+if (u == c || l == c)
 return (1);
 }
 }
