@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 /**
  *_isalpha - checks if input is alphabet or not
  *@c: user input
