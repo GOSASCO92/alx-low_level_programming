@@ -16,7 +16,6 @@ if ((k % 10) == 0)
 {
 if (j != 0)
 _putchar(' ');
-_putchar(k + '0');
 if (j == 9)
 continue;
 _putchar(',');
