@@ -1,0 +1,20 @@
+#include "main.h"
+/**
+ *largest_number - checks for the largest number
+ *@a: input 1
+ *@b: input 2
+ *@c: input 3
+ *Return: largest number
+ */
+int largest_number(int a, int b, int c)
+{
+int l;
+
+if (a >= b && a >= c)
+l = a;
+else if (b >= a && b >= c)
+l = b;
+else if (c >= a && c >= b)
+l = c;
+return (l);
+} 
