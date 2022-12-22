@@ -28,6 +28,8 @@ void print_int(int c)
 int i = 1000000000;
 
 for (; i >= 1; i /= 10)
+{
 if (c / i != 0)
 _putchar(c / i) % 10 + '0');
+}
 }
