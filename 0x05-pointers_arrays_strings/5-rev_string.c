@@ -11,7 +11,7 @@ int l = 0, i = 0;
 
 while (s[l] != '\0')
 l++;
-while (i < i--)
+while (i < l--)
 {
 c = s[i];
 s[i++] = s[l];
