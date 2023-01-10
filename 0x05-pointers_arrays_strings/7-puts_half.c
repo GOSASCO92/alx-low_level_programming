@@ -14,7 +14,7 @@ if (l % 2 == 0)
 s = l / 2;
 else
 s = (l + 1) / 2;
-for (i = n; i < l; i++)
+for (i = s; i < l; i++)
 _putchar(str[i]);
 _putchar('\n');
 }
