@@ -24,6 +24,6 @@ break;
 s++;
 }
 if (i < 0)
-t -= t;
+t = -t;
 return (t);
 }
